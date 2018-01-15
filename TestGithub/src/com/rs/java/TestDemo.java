@@ -1,10 +1,27 @@
 package com.rs.java;
 
+import com.rs.command.Employee;
+
 public class TestDemo {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	private Employee emp1;
+	private int empId=123; 
 
+	public Employee getEmp() {
+		return emp1;
 	}
+
+	public void setEmp(Employee emp) {
+		emp1 = emp;
+	}
+
+	public TestDemo(Employee emp) {
+		
+		this.emp1 = emp;
+	}
+	
+public void setEmpIn() {
+	emp1.setEmpId(empId);
+}
 
 }
