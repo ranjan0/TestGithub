@@ -13,4 +13,11 @@ public class TestDemo {
 	public void setEmp(Employee emp) {
 		emps = emp;
 	}
+
+	@Override
+	public String toString() {
+		return "TestDemo [ empId=" + empId + "]";
+	}
+	
+	
 }
