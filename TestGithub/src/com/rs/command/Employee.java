@@ -11,6 +11,12 @@ public class Employee {
 	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + "]";
+	}
+	
 	
 	
 }
