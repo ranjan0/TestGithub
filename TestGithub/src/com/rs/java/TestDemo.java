@@ -3,7 +3,7 @@ package com.rs.java;
 import com.rs.command.Employee;
 
 public class TestDemo {
-
+Test-Github-branch
 	private Employee emp1;
 	private int empId=123; 
 
@@ -14,14 +14,4 @@ public class TestDemo {
 	public void setEmp(Employee emp) {
 		emp1 = emp;
 	}
-
-	public TestDemo(Employee emp) {
-		
-		this.emp1 = emp;
-	}
 	
-public void setEmpIn() {
-	emp1.setEmpId(empId);
-}
-
-}
